@@ -66,80 +66,11 @@ php artisan serve
 ```sh
 Abra http://127.0.0.1:8000 e comece a usar 🚀
 
+...
 
 
-🛠️ https://developers.receitaws.com.br/#/operations/queryCNPJFree
+## 📌 API Utilizada  
+Este sistema consome a API **ReceitaWS**, que permite consultar dados de CNPJs gratuitamente.  
+🔗 [Documentação da API ReceitaWS](https://developers.receitaws.com.br/#/operations/queryCNPJFree)  
 
-
-- **developers.receitaws.com.br**
-
-![alt text](image-1.png)
-
-###  Acesse o link acima para entender melhor o funcionamento da API.
-
-  ```txt
- {
-  "status": "OK",
-  "ultima_atualizacao": "2019-08-24T14:15:22Z",
-  "cnpj": "string",
-  "tipo": "MATRIZ",
-  "porte": "string",
-  "nome": "string",
-  "fantasia": "string",
-  "abertura": "string",
-  "atividade_principal": [
-    {
-      "code": "string",
-      "text": "string"
-    }
-  ],
-  "atividades_secundarias": [
-    {
-      "code": "string",
-      "text": "string"
-    }
-  ],
-  "natureza_juridica": "string",
-  "logradouro": "string",
-  "numero": "string",
-  "complemento": "string",
-  "cep": "string",
-  "bairro": "string",
-  "municipio": "string",
-  "uf": "string",
-  "email": "string",
-  "telefone": "string",
-  "efr": "string",
-  "situacao": "string",
-  "data_situacao": "string",
-  "motivo_situacao": "string",
-  "situacao_especial": "string",
-  "data_situacao_especial": "string",
-  "capital_social": "string",
-  "qsa": [
-    {
-      "nome": "string",
-      "qual": "string",
-      "pais_origem": "string",
-      "nome_rep_legal": "string",
-      "qual_rep_legal": "string"
-    }
-  ],
-  "simples": {
-    "optante": true,
-    "data_opcao": "2019-08-24T14:15:22Z",
-    "data_exclusao": "2019-08-24T14:15:22Z",
-    "ultima_atualizacao": "2019-08-24T14:15:22Z"
-  },
-  "simei": {
-    "optante": true,
-    "data_opcao": "2019-08-24T14:15:22Z",
-    "data_exclusao": "2019-08-24T14:15:22Z",
-    "ultima_atualizacao": "2019-08-24T14:15:22Z"
-  },
-  "billing": {
-    "free": true,
-    "database": true
-  }
-}
-  ...
+---
