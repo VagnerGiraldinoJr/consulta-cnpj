@@ -32,6 +32,12 @@ Após o upload, selecione um **intervalo de datas** (inicial e final) para filtr
 - O sistema exibe o **tempo de análise** para cada CNPJ processado.  
 - Validação feita com base no número de CNPJ informado no input.  
 
+## 📌 API Utilizada  
+Este sistema consome a API **ReceitaWS**, que permite consultar dados de CNPJs gratuitamente.  
+🔗 [Documentação da API ReceitaWS](https://developers.receitaws.com.br/#/operations/queryCNPJFree)  
+
+
+
 ---
 
 ## 🚀 Como Usar?  
@@ -66,11 +72,7 @@ php artisan serve
 ```sh
 Abra http://127.0.0.1:8000 e comece a usar 🚀
 
-...
-
-
-## 📌 API Utilizada  
-Este sistema consome a API **ReceitaWS**, que permite consultar dados de CNPJs gratuitamente.  
-🔗 [Documentação da API ReceitaWS](https://developers.receitaws.com.br/#/operations/queryCNPJFree)  
-
 ---
+
+
+
