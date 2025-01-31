@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card-header {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+footer a {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+footer a:hover {
+    color: #343a40;
+}
