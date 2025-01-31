@@ -68,7 +68,7 @@ Abra http://127.0.0.1:8000 e comece a usar 🚀
 
 
 
-# 🛠️ https://developers.receitaws.com.br/#/operations/queryCNPJFree
+🛠️ https://developers.receitaws.com.br/#/operations/queryCNPJFree
 
 
 - **developers.receitaws.com.br**
